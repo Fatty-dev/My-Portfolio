@@ -97,7 +97,7 @@ export default async function RootLayout({
       </head>
       <Providers>
         <Column as="body" background="page" fillWidth style={{minHeight: "100vh"}} margin="0" padding="0" horizontal="center">
-          <Background
+          {/* <Background
             position="fixed"
             mask={{
               x: effects.mask.x,
@@ -137,7 +137,7 @@ export default async function RootLayout({
               angle: effects.lines.angle,
               color: effects.lines.color,
             }}
-          />
+          /> */}
           <Flex fillWidth minHeight="16" hide="s"/>
             <Header />
             <Flex

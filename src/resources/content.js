@@ -108,8 +108,14 @@ const about = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/projects/project-01/kas1.jpg",
+            alt: "kasowo",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/Kas2.jpg",
+            alt: "kasowo",
             width: 16,
             height: 9,
           },
@@ -127,7 +133,21 @@ const about = {
            Collaborated closely with a fullstack developer to implement a scalable architecture and seamless API integration earning direct praise from the founder for the product's speed and usability.
           </>,
         ],
-        images: [],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/dine1.png",
+            alt: "dineqr",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/dine4.png",
+            alt: "dineqr",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
@@ -196,7 +216,7 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           // {
-          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   src: "/images/projects/project-01/dine4.png",
           //   alt: "Project image",
           //   width: 16,
           //   height: 9,
