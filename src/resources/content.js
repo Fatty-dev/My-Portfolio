@@ -1,16 +1,16 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Fatiha",
+  lastName: "Odusiji",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  role: "Software Developer",
+  avatar: "/images/pp.jpeg",
+  email: "odusijifatiha@gmail.com",
+  location: "Africa/Lagos", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -30,17 +30,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/Fatty-dev",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.linkedin.com/in/odusiji-fatiha/",
   },
   {
     name: "Email",
@@ -55,16 +50,16 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>From v1 ideas to polished platforms</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
+    title: <>Recent project: <strong className="ml-4">Fatty.dev</strong></>,
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Fatiha, a software Developer , I craft intuitive
+      <br /> user experiences. with code that scales.
     </>
   ),
 };
@@ -83,16 +78,14 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://calendly.com/sholaodusiji/30min",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+      Fatiha is a software developer based in Africa, driven by a passion for turning intricate technical problems into clean, user-centric design experiences. Her work lives at the intersection of code and creativity blending digital craftsmanship with functional elegance. Whether building sleek interfaces or engineering behind-the-scenes systems, she brings a human-centered approach to every line of code
       </>
     ),
   },
@@ -101,17 +94,15 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Kwex Solutions LTD,",
+        timeframe: "2024 - Present",
+        role: "Frontend Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+              Led frontend development for "Kasowo", a three-tier e-commerce platform, optimizing performance across devices and resolving cross-browser issues to ensure a seamless user experience.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+          Collaborated with backend engineers to integrate new features, improve checkout flow, and streamline UI responsiveness—boosting functionality and overall platform stability.
           </>,
         ],
         images: [
@@ -125,17 +116,15 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "DineQR",
+        timeframe: "2024 - 2025",
+        role: "Frontend Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+          Rebuilt "Dineqr", a foodtech e-commerce platform, from scratch after performance failures in the initial version delivering a faster, cleaner frontend using React, Redux, and Tailwind.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+           Collaborated closely with a fullstack developer to implement a scalable architecture and seamless API integration earning direct praise from the founder for the product's speed and usability.
           </>,
         ],
         images: [],
@@ -147,12 +136,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Federal University of Agriculture",
+        description: <>Studied Computer Science.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "720 Degree",
+        description: <>Studied Sotware Development.</>,
       },
     ],
   },
@@ -161,35 +150,57 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "React",
+        description: <>Builds scalable, high-performing interfaces in React with pixel-perfect precision and component-level mastery</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+       
+    
+        ],
+      },
+      {
+        title: "Zustand",
+        description: <>Manages state in React with Zustand — minimal setup, maximum clarity, and buttery-smooth performance</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+       
+        ],
+      },
+      {
+        title: "Tailwind CSS",
+        description: <>Crafts responsive, modern UIs with Tailwind CSS — speed and consistency, down to the last px</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+         
+        ],
+      },
+      {
+        title: "TypeScript",
+        description: <>Types with confidence. Writes predictable, bug-resistant logic using TypeScript’s full power</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+         
+        ],
+      },
+      {
+        title: "JavaScript",
+        description: <>Writes JavaScript like a second language — clear, expressive, and optimized for real-world use</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+        
         ],
       },
       {
         title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Delivers blazing-fast SSR and SSG applications with Next.js from routing to deployment</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
     ],
@@ -222,46 +233,47 @@ const gallery = {
   // Images by https://lorant.one
   // These are placeholder images, replace with your own
   images: [
+
     {
-      src: "/images/gallery/horizontal-1.jpg",
+      src: "/images/gallery/me.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-2.jpg",
+      src: "/images/gallery/me1.jpeg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-3.jpg",
+      src: "/images/gallery/award.jpeg",
       alt: "image",
       orientation: "horizontal",
     },
-    {
-      src: "/images/gallery/horizontal-4.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-1.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-2.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-3.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-4.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
+    // {
+    //   src: "/images/gallery/horizontal-4.jpg",
+    //   alt: "image",
+    //   orientation: "horizontal",
+    // },
+    // {
+    //   src: "/images/gallery/vertical-1.jpg",
+    //   alt: "image",
+    //   orientation: "vertical",
+    // },
+    // {
+    //   src: "/images/gallery/vertical-2.jpg",
+    //   alt: "image",
+    //   orientation: "vertical",
+    // },
+    // {
+    //   src: "/images/gallery/vertical-3.jpg",
+    //   alt: "image",
+    //   orientation: "vertical",
+    // },
+    // {
+    //   src: "/images/gallery/vertical-4.jpg",
+    //   alt: "image",
+    //   orientation: "vertical",
+    // },
   ],
 };
 
